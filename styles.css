@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    width: calc(100vw - 41px);
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #342763, #985774);
+}
+
+input[type=color] {
+    width: 20%;
+    align-self: center;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+#random {
+    width: 20%;
+    align-self: center;
+    padding: 5px 12px;
+    background: transparent;
+    border: 2px solid teal;
+    color: white;
+    cursor: pointer;
+}
